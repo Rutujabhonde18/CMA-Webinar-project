@@ -1,0 +1,159 @@
+/* background-color */
+.highlight-yellow {
+  background-color: yellow;
+  height: 10%;
+}
+.bg-grey {
+  color: grey;
+}
+.badge-yellow {
+  background-color: rgb(252, 240, 8);
+}
+.form-check-black {
+  background-color: #1a1a1a;
+}
+.whyCMA-color,
+.webinar-bg,
+.banner-bg,
+.bg-antiquewhite {
+  background-color: antiquewhite;
+}
+footer,
+.bg-red {
+  background-color: rgb(241, 37, 37);
+}
+
+/* text color */
+.btn-text-yellow {
+  color: rgb(255, 251, 0);
+}
+
+/* underline */
+.red-underline {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+.yellow-underline {
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 238, 1);
+}
+
+/* shadow */
+.shadow-white {
+  box-shadow: 4px 4px 0 white !important;
+}
+.webinar-shadow {
+  box-shadow: 0 15px 0 red;
+}
+
+/* border */
+.border-yellow {
+  border-color: yellow;
+  border: 1px solid yellow;
+}
+.border-dashed {
+  border-style: dashed !important;
+  width: 60%;
+}
+
+/* form */
+.form-box {
+  background-color: #1a1a1a;
+  color: rgb(230, 230, 230);
+  box-shadow: 1px 1px 3px yellow;
+}
+
+/* button */
+.btn-style {
+  background-color: red;
+  color: yellow;
+  box-shadow: 3px 3px 0px black;
+}
+
+/* image */
+ul.custom-bullets {
+  list-style-image: url("./assets/red-arrow.png");
+}
+
+/* font */
+.font-times {
+  font-family: "Times New Roman", serif;
+}
+.fs-13 {
+  font-size: 13px;
+}
+.fs-35 {
+  font-size: 35px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+
+/* text */
+.text-justify {
+  text-align: justify;
+}
+
+/* height */
+.stat-box {
+  height: auto;
+}
+
+/* dots */
+.content-dots {
+  bottom: 5px;
+  right: 5px;
+}
+.CMA-banner-dots {
+  bottom: 10px;
+  left: 20px;
+}
+.footer-dots {
+  top: 10px;
+  right: 10px;
+}
+
+/* arrow */
+.banner-arrow {
+  top: 40px !important;
+  right: 40px !important;
+}
+.banner-arrow-sm {
+  top: 20px !important;
+  right: 20px !important;
+}
+
+/* half circle */
+.half-circle {
+  width: 80vw;
+  max-width: 500px;
+  height: 40vw;
+  max-height: 250px;
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  z-index: 2;
+}
+.z-4 {
+  z-index: 4;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@media (max-width: 1024px) {
+  section,
+  .container,
+  .row,
+  .col,
+  img {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 575px) {
+  .w-75 {
+    width: 100% !important;
+  }
+}
